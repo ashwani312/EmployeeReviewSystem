@@ -29,11 +29,11 @@ The Employee Review System is a web application that allows administrators to ma
 
 ### Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/employee-review-system.git`
+1. Clone the repository: `git clone https://github.com/ashwani312/EmployeeReviewSystem.git`
 2. Change to the project directory: `cd employee-review-system`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm start`
-5. Open the app in your browser: `http://localhost:3000`
+5. Open the app in your browser: `https://employeereviewsystemashwani312.onrender.com/`
 
 ## Usage
 

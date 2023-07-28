@@ -1,0 +1,28 @@
+<link rel="stylesheet" href="/css/signUp.css">
+
+<div class='register'>
+    <div class="card">
+        <div class="left">
+            <h1>Employee Review System</h1>
+            <div>
+                <span>Do you have an account?</span>
+                <a href='/users/sign-in'>
+                <button>Login</button>
+                </a>
+            </div>
+        
+        </div>
+        <div class="right">
+            <h1>Register</h1>
+            <form method="POST" action="/users/create" >
+                <input type="Name" name="name" placeholder="Enter name" required>
+                <input type="email" name="email" placeholder="Enter email" required>
+                <input type="password" name="password" placeholder="Enter password" required>
+                <input type="password" name="confirmPassword" placeholder="Confirm password" required>
+                <button type="submit">Register</button>
+            </form>
+
+        </div>
+
+    </div>
+</div>

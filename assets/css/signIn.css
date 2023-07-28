@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&family=Ysabeau+Infant&display=swap');
+.login {
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(193, 190, 255);
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+
+ .card {
+    width: 50%;
+       display: flex;
+    background-color: white;
+    border-radius: 10px;
+    /* min-height: 410px; */
+    overflow: hidden;
+}
+
+.card .left {
+    flex: 1;
+    background: linear-gradient(rgba(39, 11, 96, 0.5), rgba(39, 11, 96, 0.3)), url(https://images.pexels.com/photos/5046443/pexels-photo-5046443.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) center;
+    background-position: right;
+    background-size: cover;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+}
+
+.left h1 {
+    font-size: 80px;
+    line-height: 100px;
+}
+
+.left span {
+    font-size: 18px;
+}
+
+.left button {
+    cursor: pointer;
+    width: 50%;
+    padding: 9px;
+    border: none;
+    color: purple;
+    background-color: #fff;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+/* right */
+ .right {
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+}
+
+.right   h1 {
+    color: #555;
+}
+.right   form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+form      input {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    padding: 20px 10px;
+    border-radius: 10px;
+    box-shadow: #555,black;
+}
+
+form 
+button {
+    width: 50%;
+    padding: 10px;
+    border: none;
+    background-color: #938eef;
+    color: rgb(255, 249, 249);
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+.buttons{
+display: flex;
+flex-direction: column;
+gap: 9px;
+}

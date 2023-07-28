@@ -1,0 +1,125 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&family=Ysabeau+Infant&display=swap');
+
+.navBar {
+    background: linear-gradient(135deg, #122346, #110115);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+.navBar a{
+    text-decoration: none;
+}
+
+
+.nameOfApp a {
+    font-size: 35px;
+    text-decoration: none;
+    margin-left: -15px;
+    color: #938eef;
+    /* letter-spacing: 4px; */
+    font-weight: 600;
+    text-shadow: -1px 1px 0 #41ba45,
+        1px 1px 0 #c63d2b,
+        1px -1px 0 #42afac,
+        -1px -1px 0 #c6c23f;
+    text-shadow: 0 1px 1px #bbb,
+        0 2px 0 #999,
+        0 3px 0 #888,
+        0 4px 0 #777,
+        0 5px 0 #666,
+        0 6px 0 #555,
+        0 7px 0 #444,
+        0 8px 0 #333,
+        0 9px 7px #302314;
+}
+
+
+
+.nameOfUser {
+    font-size: 20px;
+    margin-left: 2px;
+    margin-right: 8px;
+    margin-top: 8px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.nameOfUser img {
+    height: 30px;
+    width: 30px;
+    margin-right: 8px;
+    padding: 5px;
+
+}
+
+
+.logOut{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.logOut a {
+    font-size: 15px;
+    text-decoration: none;
+    color: aqua;
+    margin-right: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    transition: 1s all ease-in-out;
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+.logOut a:hover {
+  color: white;
+  border-bottom: 1px solid red;   
+  background-color: rgba(185, 176, 176, 0.3);
+}
+.logOut button{
+    cursor: pointer;
+    padding: 2px 12px;
+    border: none;
+    background-color: orange;
+    color: red;
+    border-radius: 5px;
+}
+
+.noUser ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.noUser li {
+    list-style: none;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-right: 20px;
+    font-size: 19px;
+}
+
+.noUser li a {
+    text-decoration: none;
+    color: white;
+}
+
+.logOut small {
+    color: white;
+    text-decoration: underline 1px yellow;
+    padding: 5px;
+    font-size: 15px;
+}
+.noUser button{
+    color: white;
+    cursor: pointer;
+    background-color: #938eef;
+    border: none;
+    border-radius: 5px;
+}
+
+.logOut small:hover {
+    color: yellow;
+}

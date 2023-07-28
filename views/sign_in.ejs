@@ -1,0 +1,32 @@
+<link rel="stylesheet" href="/css/signIn.css">
+<div class='login'>
+    <div class="card">
+        <!-- <div class="left">
+            <h1>Hello World</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A voluptates recusandae facilis numquam!</p>
+            <span>Dont have an account?</span>
+            <a href="/users/sign-up">
+            <button>Register</button>
+            </a>
+
+        </div> -->
+        <div class="right">
+            <h1>Login</h1>
+            <form method="POST" action="/users/create-session" >
+                <input type="email" name="email" placeholder="Enter email" required>
+                <input type="password" name="password" placeholder="Enter password" required>
+                <button type="submit">Login</button>
+            </form>
+            <div class="buttons">
+                <div>
+                    <span>Forget your password?</span>
+                    <a  href="/users/forgetPassword"><button>ForgotPassword</button></a><br>
+                </div>
+                <div>
+                    <span>Don't have an account?</span>
+                    <a href="/users/sign-up"><button>Register</button></a>
+                </div>     
+            </div>
+        </div>
+    </div>
+</div>

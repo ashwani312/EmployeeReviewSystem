@@ -51,10 +51,6 @@ The Employee Review System is a web application that allows administrators to ma
 
 Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
 
-## License
-
-![hirect1](https://github.com/ashwani312/EmployeeReviewSystem/assets/105036643/045703d1-b05e-48e5-90e5-5d20215cfca0)
-
 
 ## Acknowledgments
 

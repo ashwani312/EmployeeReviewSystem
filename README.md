@@ -53,7 +53,8 @@ Contributions are welcome! If you find any bugs or have suggestions for improvem
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+![hirect1](https://github.com/ashwani312/EmployeeReviewSystem/assets/105036643/045703d1-b05e-48e5-90e5-5d20215cfca0)
+
 
 ## Acknowledgments
 
